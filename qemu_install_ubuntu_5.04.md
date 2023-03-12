@@ -63,7 +63,16 @@ host $ ssh [user]@[ip]
 >     HostkeyAlgorithms +ssh-rsa
 > ```
 
+3. scp: realpath /home/lfh/linux-kernel/linux-2.6.10: No such file, scp: upload "/home/lfh/linux-kernel/linux-2.6.10": path canonicalization failed, scp: failed to upload directory ./linux-2.6.10 to /home/lfh/linux-kernel
 
+
+> I ran into this issue as well. It happened for me when using a newish scp/ssh client (openssh 9.0) with an older RHEL/CentOS 8 ssh server (openssh 8.0).
+> 
+> What fixed it for me was to force the scp into legacy mode with the -O flag, i.e.
+> 
+> ```
+> scp -r -O src_dir target_server:
+> ```
 
 ------------
 ##### 参考：
@@ -75,3 +84,5 @@ https://blog.csdn.net/jeikerxiao/article/details/84105529
 https://stackoverflow.com/questions/69875520/unable-to-negotiate-with-40-74-28-9-port-22-no-matching-host-key-type-found-th
 
 https://askubuntu.com/questions/836048/ssh-returns-no-matching-host-key-type-found-their-offer-ssh-dss
+
+https://blog.csdn.net/nop404/article/details/114963851
