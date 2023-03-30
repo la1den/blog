@@ -31,3 +31,7 @@ $ make menuconfig
 
 ##### 参考：
 
+https://geeksww.com/tutorials/operating_systems/linux/tools/how_to_download_compile_and_install_gnu_ncurses_on_debianubuntu_linux.php
+https://askubuntu.com/questions/509663/c-preprocessor-lib-cpp-fails-sanity-check
+https://www.51cto.com/article/663841.html
+
