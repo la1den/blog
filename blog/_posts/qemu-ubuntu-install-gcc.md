@@ -1,5 +1,10 @@
-Install gcc on qemu ubuntu 5.04
-=================
+---
+title: "Install gcc on qemu ubuntu 5.04"
+date: 2023-03-12
+author: 3yude
+location: ShenZhen 
+---
+
 
 1. 添加硬件
 ![添加硬件_img](assets/img/Screenshot_20230312_103334.png "添加硬件")
@@ -18,4 +23,4 @@ sudo apt-get install gcc
 ----------------
 参考：
 
-https://blog.csdn.net/nop404/article/details/114963851
+<https://blog.csdn.net/nop404/article/details/114963851>

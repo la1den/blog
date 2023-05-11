@@ -1,0 +1,18 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "my personal blog",
+  "main": "index.js",
+  "repository": "https://github.com/3yude/blog",
+  "author": "3yude <lowfhon@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-blog": "^1.9.4",
+    "@vuepress/theme-blog": "^2.3.3",
+    "vuepress": "^1.9.9"
+  },
+  "scripts": {
+    "blog:dev": "vuepress dev blog",
+    "blog:build": "vuepress build blog"
+  }
+}

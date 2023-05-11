@@ -1,5 +1,10 @@
-Qemu install ubuntu
-=======================
+---
+title: Qemu install ubuntu
+date: 2023-03-12
+author: 3yude
+location: ShenZhen 
+---
+
 
 ## 安装 ubuntu
 

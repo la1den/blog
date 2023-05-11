@@ -1,5 +1,10 @@
-make: Nothing to be done for `default’
-================
+---
+title: "make:Nothing to be done for `default’"
+date: 2023-03-12
+author: 3yude
+location: ShenZhen 
+---
+
 
 > While writing make files to compile kernel modules we might come across the error:
 >
@@ -19,5 +24,5 @@ make: Nothing to be done for `default’
 ----------
 参考：
 
-https://www.thegeekdiary.com/make-nothing-to-be-done-for-default/
+<https://www.thegeekdiary.com/make-nothing-to-be-done-for-default/>
 

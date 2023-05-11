@@ -1,3 +1,9 @@
+---
+title: "npx instruction"
+date: 2023-05-10
+author: 3yude
+location: ShenZhen 
+---
 
 Node 自带 npm 模块，所以可以直接使用 npx 命令。万一不能用，就要手动安装一下。
 ```
@@ -9,9 +15,6 @@ npx 命令可以在没有全局安装 node 模块时进行使用，如：
 $ npx mocha --version
 ```
 npx 在没有预先安装模块的情况下会自动安装，运行完成后自动卸载
-
-
-
 
 
 启动 vite server
