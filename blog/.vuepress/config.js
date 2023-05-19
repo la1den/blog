@@ -1,5 +1,5 @@
 module.exports = {
-    title: '3yude\'s Blog',
+    title: 'La1den\'s Blog',
     description: 'Less is more.',
     plugins: [
         [
