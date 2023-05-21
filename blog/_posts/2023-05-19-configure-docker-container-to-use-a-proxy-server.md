@@ -19,9 +19,13 @@ docker默认使用的网络是桥接，ip地址为172.17.0.1。
 
 构建命令如下：
 ```
-docker build --no-cache --build-arg HTTPS_PROXY=http://172.17.0.1:2081 --build-arg HTTP_PROXY=http://172.17.0.1:2081 -t kmonad-builder .
+$ docker build --no-cache --build-arg HTTPS_PROXY=http://172.17.0.1:2081 --build-arg HTTP_PROXY=http://172.17.0.1:2081 -t kmonad-builder .
 ```
 
+构建完成后可以使用 `docker rmi` 命令删除构建失败的镜像减少空间的占用。
+```
+$ docker rmi $(docker images | grep "none" | awk '{print $3}')
+```
 
 
 
@@ -33,3 +37,4 @@ docker build --no-cache --build-arg HTTPS_PROXY=http://172.17.0.1:2081 --build-a
 
 <https://docs.docker.com/network/proxy/>
 
+<https://neucrack.com/p/286>
