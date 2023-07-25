@@ -1,12 +1,10 @@
 ---
-title: How to read a book
 date: 2023-04-20
-author: 3yude
-location: ShenZhen 
 ---
 
 
-### 阅读前基本三问
+# 阅读前基本三问
+
 - 我为什么要看这本书
 - 这本书和我以前看过的其他书有什么不同
 - 这本书是什么类型的书，是工具书还是思维书

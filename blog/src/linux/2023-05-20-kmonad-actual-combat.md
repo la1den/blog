@@ -1,10 +1,10 @@
 ---
-title: "上手kmonad"
+title: "kmonad体验"
 date: 2023-05-20
-author: la1den
 ---
 
-### Install using docker
+
+## Install using docker
 ```
 # Build the Docker image which will contain the binary.
 docker build -t kmonad-builder .
@@ -18,7 +18,7 @@ docker run --rm -it -v ${PWD}:/host/ kmonad-builder bash -c 'cp -vp /root/.local
 docker rmi kmonad-builder
 ```
 
-### config & run
+## config & run
 安装完后在当前路径有kmonad二进制文件，运行如下：
 ```
 sudo kmonad your_config_path.kbd

@@ -1,8 +1,6 @@
 ---
 title: "编译 linux 2.6.10 内核"
 date: 2023-03-30
-author: 3yude
-location: ShenZhen 
 ---
 
 

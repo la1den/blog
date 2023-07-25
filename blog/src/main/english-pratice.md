@@ -1,8 +1,6 @@
 ---
 title: English pratice
 date: 2023-04-30
-author: 3yude
-location: ShenZhen 
 ---
 
 常用提升英语水平的方法

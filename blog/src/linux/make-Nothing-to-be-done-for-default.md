@@ -1,8 +1,6 @@
 ---
 title: "make:Nothing to be done for `default’"
 date: 2023-03-12
-author: 3yude
-location: ShenZhen 
 ---
 
 
