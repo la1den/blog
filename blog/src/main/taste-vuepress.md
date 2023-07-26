@@ -1,8 +1,6 @@
 ---
 title: Using vuepress to build my blog
 date: 2023-05-11
-author: 3yude
-location: ShenZhen 
 ---
 
 ```

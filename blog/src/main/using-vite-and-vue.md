@@ -1,8 +1,6 @@
 ---
 title: "npx instruction"
 date: 2023-05-10
-author: 3yude
-location: ShenZhen 
 ---
 
 Node 自带 npm 模块，所以可以直接使用 npx 命令。万一不能用，就要手动安装一下。
