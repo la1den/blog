@@ -12,10 +12,12 @@ export default hopeTheme({
     },
 
     // pure: true,
+    
+    favicon: "/favicon.ico",
 
     iconAssets: "fontawesome",
 
-    // logo: "/logo.svg",
+    logo: "/logo.jpeg",
 
     repo: "la1den/blog",
 

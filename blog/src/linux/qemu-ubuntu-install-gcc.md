@@ -11,7 +11,7 @@ date: 2023-03-12
 ![管理_img](/assets/images/Screenshot_20230312_103351.png "管理")
 
 3. 设置设备类型 CDROM
-![设置_img](assets/images/Screenshot_20230312_103410.png "设备类型")
+![设置_img](/assets/images/Screenshot_20230312_103410.png "设备类型")
 
 4. 安装
 ```
