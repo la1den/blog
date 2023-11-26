@@ -28,6 +28,7 @@ ubuntu $ ps -e | grep ssh
 ```
 
 ## 通过 ssh 连接 qemu 中的 ubuntu
+
 查看 ubuntu 的 ip 地址
 ```
 ubuntu $ ifconfig
